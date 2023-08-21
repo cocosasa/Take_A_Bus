@@ -80,6 +80,30 @@ $ npm run dev
 
 ## Stacks 🐈
 
+
+### API 키 발급
+가) Kakao developers 카카오 로그인 API 설정
+- 내 애플리케이션 → 애플리케이션 추가
+- 카카오 로그인 동의항목 설정, 활성화 설정
+- REST API 키, Redirect URL, Client Secret 키 생성
+
+나) Naver Cloud platform direction 5 API설정
+- 콘솔의 AI·NAVER API > AI·NAVER API > Application에서 애플리케이션을 등록
+- AI·NAVER API > AI·NAVER API > Application에서 등록한 애플리케이션을 선택해 Client ID와 Client Secret값을 확인
+- AI·NAVER API > AI·NAVER API > Application의 변경 화면에서 Direction 5가 선택
+- 월 무료 횟수가 정해져 있으니 주의해서 사용
+
+다)공공 데이터 포털API설정
+- 국토교통부(TAGO) 버스정류소정보, 버스 노선 정보, 버스 의치 정보, 버스 도착 정보 활용 신청
+- 한국관광공사 국문 관광정보 서비스 활용 신청
+- 회원 가입시 발급 받은 개인 API 인증키 사용
+
+라)Google Maps API 설정
+- 구글 맵 플랫폼 사이트 가입, 결제카드 등록
+- 키 및 사용자 인증 정보에서 API키 발급
+- API 및 서비스에서 Maps JavaScript API 활성화
+
+
 ### Environment
 
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
